@@ -1,0 +1,244 @@
+package com.mycompany.test;
+
+
+
+import java.util.Scanner;
+public class Test {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner  (System.in);
+        
+        String input,input2,input3,input4,input5,input6,input7,input8,input9,input10,input11,input12,input13,input14,input15,input16,input17,input18,input19,input20;
+        int points = 0,points2 = 0,points3 = 0,points4 = 0,points5 = 0,points6 = 0,points7 = 0,points8 = 0,points9 = 0,points10 = 0,points11 = 0,points12 = 0,points13 = 0,points14 = 0,points15 = 0,points16 = 0,points17 = 0,points18 = 0,points19 = 0,points20 = 0;
+        int wrong = 0;
+        
+        System.out.println("Welcome to Gurtaj's test");
+        
+        System.out.print("1) What is the capital of France? (2pts)"+"\nAnswer:");
+        input = in.nextLine();
+        
+        System.out.println ("\n") ;
+        
+        System.out.print("2) What is the largest planet in our solar system? (2pts)"+"\nAnswer:");
+        input2 = in.nextLine();
+        
+        System.out.println ("\n") ;
+        
+        System.out.print("3) How many continents are there in the world? (2pts)"+"\nAnswer:");
+        input3 = in.nextLine();
+        
+        System.out.println ("\n") ;
+
+        System.out.print("4) Who painted the Mona Lisa? (2pts)"+"\nAnswer:");
+        input4 = in.nextLine();
+
+        System.out.println ("\n") ;
+        
+        System.out.print("5) What is the opposite of hot? 2pts)"+"\nAnswer:");
+        input5 = in.nextLine();   
+        
+        System.out.println ("\n") ;
+        
+        System.out.print("6) What is the name of the closest star to Earth? 2pts)"+"\nAnswer:");
+        input6 = in.nextLine(); 
+        
+        System.out.println ("\n") ;
+        
+        System.out.print("7) What is the color of an apple? 2pts)"+"\nAnswer:");
+        input7 = in.nextLine(); 
+        
+        System.out.println ("\n") ;
+        
+        System.out.print("8) Which animal is known as the King of the Jungle? 2pts)"+"\nAnswer:");
+        input8 = in.nextLine(); 
+                
+        System.out.println ("\n") ;
+
+        System.out.print("9) What is the main ingredient in pizza dough?  2pts)"+"\nAnswer:");
+        input9 = in.nextLine(); 
+                
+        System.out.println ("\n") ;
+        
+        System.out.print("10) What is the tallest mammal in the world? 2pts)"+"\nAnswer:");
+        input10 = in.nextLine();
+        
+           
+        System.out.println ("\n") ;
+        
+        System.out.print("11) How many sides does a triangle have? 2pts)"+"\nAnswer:");
+        input11 = in.nextLine();
+                
+        System.out.println ("\n") ;
+        
+        System.out.print("12) What is the primary language spoken in Japan? 2pts)"+"\nAnswer:");
+        input12 = in.nextLine();
+                
+        System.out.println ("\n") ;
+        
+        System.out.print("13) What is the chemical symbol for water? 2pts)"+"\nAnswer:");
+        input13 = in.nextLine();
+                
+        System.out.println ("\n") ;
+        
+        System.out.print("14) What sport is played with a shuttlecock? 2pts)"+"\nAnswer:");
+        input14 = in.nextLine();
+                
+        System.out.println ("\n") ;
+        
+        System.out.print("15) What is the process of a caterpillar turning into a butterfly called? 2pts)"+"\nAnswer:");  
+        input15 = in.nextLine();
+                
+        System.out.println ("\n") ;
+             
+        System.out.print("16) What is the largest ocean on Earth? 2pts)"+"\nAnswer:");
+        input16 = in.nextLine();
+                
+        System.out.println ("\n") ;
+
+        System.out.print("17) Which season comes after autumn? 2pts)"+"\nAnswer:");
+        input17 = in.nextLine();
+                
+        System.out.println ("\n") ;
+        
+        System.out.print("18) How many inches are in a foot? 2pts)"+"\nAnswer:");
+        input18 = in.nextLine();
+                
+        System.out.println ("\n") ;
+        
+        System.out.print("19) What is the capital city of the United States? 2pts)"+"\nAnswer:");
+        input19 = in.nextLine();
+                
+        System.out.println ("\n") ;
+        
+        System.out.print("20) What is the name of the toy company famous for producing plastic bricks? 2pts)"+"\nAnswer:");
+        input20 = in.nextLine();
+        
+        if(input.equalsIgnoreCase("Paris"))
+            points=+2;
+        
+        else
+            wrong++;
+        
+        if(input2.equalsIgnoreCase("Jupiter"))
+            points2=+2;
+        
+        else
+            wrong++;
+        
+       
+        if(input3.equalsIgnoreCase("Seven"))
+            points3=+2;
+        
+        else
+            wrong++;
+       
+        if(input4.equalsIgnoreCase("Leonardo da Vinci"))
+            points4=+2;
+        
+        else
+            wrong++;
+        
+        if(input5.equalsIgnoreCase("Cold"))
+            points5=+2;
+        
+        else
+            wrong++;
+        
+        if(input6.equalsIgnoreCase("Sun"))
+            points6=+2;
+        
+        else
+            wrong++;
+        
+        if(input7.equalsIgnoreCase("Red"))
+            points7=+2;
+        
+        else
+            wrong++;
+        
+        if(input8.equalsIgnoreCase("lion"))
+            points8=+2;
+        
+        else
+            wrong++;
+        
+        if(input9.equalsIgnoreCase("flour"))
+            points9=+2;
+        
+        else
+            wrong++;
+        
+        if(input10.equalsIgnoreCase("giraffe"))
+            points10=+2;
+        
+        else
+            wrong++;
+        
+        if(input11.equalsIgnoreCase("three"))
+            points11=+2;
+        
+        else
+            wrong++;
+        
+        if(input12.equalsIgnoreCase("japanese"))
+            points12=+2;
+        
+        else
+            wrong++;
+        
+        if(input13.equalsIgnoreCase("h2o"))
+            points13=+2;
+        
+        else
+            wrong++;
+        
+        if(input14.equalsIgnoreCase("Badminton"))
+            points14=+2;
+        
+        else
+            wrong++;
+        
+        if(input15.equalsIgnoreCase("Metamorphosis"))
+            points15=+2;
+        
+        else
+            wrong++;
+        
+        if(input16.equalsIgnoreCase("Pacific ocean"))
+            points16=+2;
+        
+        else
+            wrong++;
+        
+        if(input17.equalsIgnoreCase("Winter"))
+            points17=+2;
+        
+        else
+            wrong++;
+        
+        if(input18.equalsIgnoreCase("twelve"))
+            points18=+2;
+        
+        else
+            wrong++;
+        
+        if(input19.equalsIgnoreCase("Washington D.C."))
+            points19=+2;
+        
+        else
+            wrong++;
+        
+        if(input20.equalsIgnoreCase("Lego"))
+            points20=+2;
+        
+        else
+            wrong++;
+        
+        System.out.println("___________________________");
+        System.out.println("Results:");
+        System.out.println(points + points2 + points3 + points4 + points5 + points6 + points7 + points8 + points9 + points10 + points11 + points12 + points13 + points14 + points15 + points16 + points17 + points18 + points19 + points20 + " "
+                + "Correct out of 40"+"\n");
+        
+        System.out.print("Wrong: "+wrong);
+    }
+}
